@@ -11,7 +11,7 @@ Power-up both devices by connecting them to your computer or USB hub. Verify tha
 !!! danger
     Before making any connections, make sure that the +48V is turned off. This is above the ±40V DC rating of the QA403. Activating phantom power could damage your audio analyzer.
 
-![Screenshot](img/guide_noise_connections.jpg){: style="height:600px"}
+![Screenshot](img/guide_noise_connections.jpg)
 
 
 We are going to use the balanced outputs of the QA403 to generate a signal for the QA472 to amplify. The amplified signal will be returned to the QA403 single-ended input for analysis.
