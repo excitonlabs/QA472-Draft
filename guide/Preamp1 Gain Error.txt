@@ -1,0 +1,15 @@
+# Preamp 1 Gain Error
+
+The INA849 gain setting resistor pins are very sensitive to stray capacitance, and beyond 10pF or so (per SPICE) it can result in instabilities. The gain resistors are switched by photomos switches which have been selected for their low capacitive loading and also the off-state capacitive coupling.
+
+The gain resistors used are as follows:
+
+
+R (Ohms)	Theoretical Gain
+inf	0 dB
+2.8K	9.94 dB
+665	20.01 dB
+Given the limits on the INA849 gain tolerance and resistor tolerance, we’d expect the gains of a random unit to be very close to the above.
+
+At 20 dB gain setting we see:
+
