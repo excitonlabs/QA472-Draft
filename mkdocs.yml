@@ -17,7 +17,7 @@ nav:
     - "Preamp 1 (Op-amp)": "overview/pre1.md"
     - "Preamp 2 (JFET)": "overview/pre2.md"
     - "USB Power" : "overview/power.md"
-  - "Guide":
+  - "Measurements":
     - "QA472 Noise Floor": "guide/noise_floor.md"
 
 markdown_extensions:

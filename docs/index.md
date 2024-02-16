@@ -13,7 +13,7 @@ Balanced or single-ended connections are made to the preamp using BNCs or the fr
 
 Power is supplied by a USB-B socket on the back panel and draws approximately 100 mA at 5 volts. This is internally isolated for low-noise operation.
 
-The QA472 is not designed as a microphone recording solution and does not appear as a USB device when connected to a computer &mdash; USB just provides power. It should be used with a high-quality pre-amp providing a low-noise amplified signal to a digital audio workstation.
+The QA472 is not designed as a microphone recording solution and does not appear as a USB device when connected to a computer &mdash; USB just provides power.
 
 ## Next steps
 
