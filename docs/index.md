@@ -1,7 +1,6 @@
+# QA472 Dual Low-Noise Preamp
 
 ![Screenshot](img/qa472_front_1024x1024.png)
-
-# QA472 Dual Low-Noise Preamp
 
 The QA472 is a two-channel low-noise microphone preamp. As a reference amplifier, it can be used for accurate and repeatable measurements of sound pressure level when combined with a calibrated microphone. It is compact, easily powered, and can be used on a bench or in a portable testing setup.
 
@@ -14,8 +13,6 @@ Balanced or single-ended connections are made to the preamp using BNCs or the fr
 Power is supplied by a USB-B socket on the back panel and draws approximately 100 mA at 5 volts. This is internally isolated for low-noise operation.
 
 The QA472 is not designed as a microphone recording solution and does not appear as a USB device when connected to a computer &mdash; USB just provides power.
-
-## Next steps
 
 <div class="grid cards" markdown>
 

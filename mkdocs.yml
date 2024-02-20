@@ -12,7 +12,7 @@ theme:
       - toc.integrate
   
 nav:
-  - "Summary": "index.md"
+  - "Home": "index.md"
   - "Documentation":
     - "Preamp 1 (Op-amp)": "overview/pre1.md"
     - "Preamp 2 (JFET)": "overview/pre2.md"
