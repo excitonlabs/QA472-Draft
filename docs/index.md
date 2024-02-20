@@ -25,7 +25,7 @@ The QA472 is not designed as a microphone recording solution and does not appear
 
     First steps with the QA472.
 
-	[:octicons-arrow-right-24: Noise measurements using the QA403](guide/noise_floor.md)
+	[:octicons-arrow-right-24: Measurements using the QA403](https://forum.quantasylum.com/t/qa472-measurements/1006#measuring-pre1-ina849-01020-db-preamp-1)
 
 -   :material-help-circle:{ .lg .middle } __Join the Forum__
 
