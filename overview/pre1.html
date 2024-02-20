@@ -192,7 +192,7 @@
         
   
   <span class="md-ellipsis">
-    Summary
+    Home
   </span>
   
 
@@ -455,74 +455,6 @@
   
 
     
-      
-      
-  
-  
-  
-  
-    
-    
-    
-      
-        
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
-            
-  
-  <span class="md-ellipsis">
-    Measurements
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Measurements
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../guide/noise_floor.html" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    QA472 Noise Floor
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
   </ul>
 </nav>
                   </div>
@@ -554,6 +486,7 @@
 <p><img alt="Screenshot" src="img/preamp_1_48V_power_crop.png" style="height:308px" /></p>
 <p>+48V can be supplied to a condenser microphone connected to the XLR input. To enable phanthom power, press and hold the +48V button for 2 seconds. You will see the +48V LED illuminate, at which point you can release the button.</p>
 <p>Similary, phanthom power can be disengaged by simply pressing the button again; it is not necessary to hold the press when turning phanthom power off.</p>
+<p>Phantom power is only supplied to the XLR input. When toggling the input to the BNC channel a reduced voltage does appear across the BNC terminals for a short time until bleed resistors have drained the charge. This is unlikely to cause any problems with whatever is connected to the BNC terminals, however, out of caution you may prefer to use either the BNC or the XLR inputs at a time.</p>
 <h2 id="bnc-input">BNC Input</h2>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -562,10 +495,6 @@
 <p><img alt="Screenshot" src="img/preamp_1_BNC_input_crop.png" style="height:308px" /></p>
 <p>To enable the BNC input, press the BNC button until the LED labelled "B" illuminates.</p>
 <h3 id="balanced-connection">Balanced connection</h3>
-<div class="admonition question">
-<p class="admonition-title">Question</p>
-<p>The silk screen on the top of the chassis says the input impedance is 40 kOhms.</p>
-</div>
 <p>Balanced sources are relative to audio ground, which is the shield of the BNC connector. The hot (+) and cold (&ndash;) pins of the balanced should be connected to the positive (+) and negative (&ndash;) labelled BNC inputs, respectively. The input impedance is high, around 110 kOhms.</p>
 <h3 id="single-ended-connection">Single-ended connection</h3>
 <p>Preamp 1 is designed for balanced connections; however, single-ended connections are possible by shorting the negative BNC terminal using a 0 Ohm shorting block. The single-ended voltage is applied to the positive BNC terminal. In this configuration, the input impedance is 55 kOhms.</p>
