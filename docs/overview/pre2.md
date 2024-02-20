@@ -1,10 +1,7 @@
 # Preamp 2 (JFET)
 
 ![Screenshot](img/preamp_2_highlight.png)
-
-!!! question
-    Question for Matt. I measure a decaying DC voltage between preamp 1's BNC+ and BNC- terminals when switching preamp 1 from XLR input to BNC input with phantom power enabled. My DVM is quite slow, but I think this is the 48V rail (reservior cap?) draining when the relay is switched. I'm not sure if this is a problem or not, or if I should mention it in the documentation.
-
+    
 Preamp 2 is highlighted in the diagram above and includes a single BNC input and output with a fixed gain of 30 dB. It is intended to be used with higher impedance sources, is single-ended, and has lower noise than preamp 1.
 
 It is based on the [JFE150](https://www.ti.com/product/JFE150) an ultra-low-noise N-channel JFET specifically designed for audio amplification, with a 1 MOhm input impedance and remarkably low voltage noise of $0.8 \text{nV}/\sqrt{\text{Hz}}$ at 1 kHz.

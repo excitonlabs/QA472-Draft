@@ -18,9 +18,12 @@ From left to right, we will review the purpose of each front panel item.
 +48V can be supplied to a condenser microphone connected to the XLR input. To enable phanthom power, press and hold the +48V button for 2 seconds. You will see the +48V LED illuminate, at which point you can release the button.
 
 Similary, phanthom power can be disengaged by simply pressing the button again; it is not necessary to hold the press when turning phanthom power off.
-	
+
+Phantom power is only supplied to the XLR input. When toggling the input to the BNC channel a reduced voltage does appear across the BNC terminals for a short time until bleed resistors have drained the charge. This is unlikely to cause any problems with whatever is connected to the BNC terminals, however, out of caution you may prefer to use either the BNC or the XLR inputs at a time.
+
 
 ## BNC Input
+
 !!! warning
     Inputs have minimum and maximum limits to the DC voltage (with respect to the BNC shield) of -1V and +50V and a maximum safe current limit of less than 20mA. Ensure that the voltages and currents drawn are within these limits. See the datasheet for more information.
 
@@ -29,9 +32,6 @@ Similary, phanthom power can be disengaged by simply pressing the button again; 
 To enable the BNC input, press the BNC button until the LED labelled "B" illuminates.
 
 ### Balanced connection
-
-!!! question
-    The silk screen on the top of the chassis says the input impedance is 40 kOhms.
 
 Balanced sources are relative to audio ground, which is the shield of the BNC connector. The hot (+) and cold (&ndash;) pins of the balanced should be connected to the positive (+) and negative (&ndash;) labelled BNC inputs, respectively. The input impedance is high, around 110 kOhms.
 
